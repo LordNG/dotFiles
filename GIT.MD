@@ -1,6 +1,6 @@
 # GIT instuctions:
 
-### Create bare repository:
+### Create repository:
 ##### on server
 create an empty dir:
 ``mkdir project.git``
@@ -32,5 +32,19 @@ set remote:
 
 push changes:
 ``git push origin master``
+  or
+``git push --set-upstream origin master``
+
+
+
+
+### Git branching:
+create a new branch:
+``git branch test``
+
+switching branch:
+(make sure to commit changes before switching branch by checking git status)
+``git checkout testing``
+
 
 
