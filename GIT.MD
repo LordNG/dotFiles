@@ -48,3 +48,19 @@ switching branch:
 
 
 
+### Squashing multiple commits into 1 commit:
+#### from other branch
+Check out the target branch (eg: master):
+``git checkout master``
+
+merge the working branch (eg: test):
+``git merge --squash test``
+
+commit new message:
+``git commit
+
+push upstream:
+``git push``
+
+
+
